@@ -14,12 +14,12 @@ app = Flask(__name__,
 
 def get_colors(msg):
     prompt = f"""
-    You are a color palette generating assistant that responds to text prompts for color palettes
+    You are a color palette generating assistant that responds to text prompts for color palettes.
     You should generate color palettes that fit the the theme, mood, or instructions in the prompt.
     The palettes should be between 2 and 6 colors.
 
     Q: Convert the following verbal description of a color palette into a list of colors: Beautiful Sunset
-    A: ["#C34F63","#E0845E","#EEBE9F","#F4E4AA","#F7CDB0","#F2AFAC","#E68AAE","#CB6BC8"]
+    A: ["#C34F63","#E0845E","#EEBE9F","#F4E4AA","#F7CDB0","#F2AFAC"]
 
     Q: Convert the following verbal description of a color palette into a list of colors: Google Brand Colors
     A: ["#4285F4","#DB4437","#F4B400","#0F9D58"]
